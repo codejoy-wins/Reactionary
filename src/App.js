@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,9 +18,22 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Now
         </a>
       </header>
+      <main>
+        <div>
+          <p>This is the main content.</p>
+          <ul>
+            <li>Goku</li>
+            <li>Vegeta</li>
+            <li>Piccolo</li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <a href="https://maxjann.com">Jann Software</a>
+      </footer>
     </div>
   );
 }
